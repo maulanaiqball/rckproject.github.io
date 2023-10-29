@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+.palete {
+    color: #ffd400;
+    /*kuning*/
+    color: #1b1a1b;
+    /*black*/
+    color: #dedddd;
+    /*grey*/
+}
+
+/*Typhograpy*/
+h1,h2,h3,h4,h5,h6 {
+    color: #ffd400;
+    font-family: 'Space Grotesk';
+}
+
+a {
+    color: #dedddd;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+p {
+    color: #dedddd;
+}
+
+*,
+html,
+body,
+.container-fluid,
+.row,
+.col-6 {
+    background-color: #1b1a1b;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+#navCon {
+    background-color: transparent;
+}
+
+.nav-link, .icon {
+    color: #dedddd;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.nav-link:hover, .icon:hover {
+    color: #a3a3a3;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.brand, a, #logo {
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+}
+
+#navLink, li, a {
+    background-color: transparent;
+    list-style: none;
+}
+
+/*section*/
+
+section {
+    height: 100vh;
+}
+
+/*section 1*/
+
+.crop-container {
+    overflow: hidden;
+}
+.crop-container img {
+    margin-bottom: -43px;
+}
+
+/*section 2*/
+
+.sec2 {
+    position: relative;
+}
+
+.background-image {
+    text-align: center;
+}
+
+.background {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.overlay {
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    top: 50px;
+}
+
+.paragraf {
+    position: relative;
+    z-index: 3;
+    background-color: transparent;
+    margin: 100px;
+}
+
+/*section3*/
+
+.sec3 {
+    top: 100px;
+    padding: 10px;
+}
+
+.sect3 {
+    padding: 20px 75px 0px 75px;
+}
+
+/*sec4*/
+
+.sec {
+    padding-top: 100px;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Untuk mengatur rasio aspek video 16:9 (56.25% = 9/16 * 100%) */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*sec4*/
+.news {
+    padding: 0px 0px 20px 0px;
+}
+
+.textnews {
+    padding-top: 20px;
+}
+
+/*section5*/
+.video-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-wrapper iframe {
+    margin-bottom: 50px; 
+}
+
+.video {
+    padding: 50px 20px 0px 20px;
+}
