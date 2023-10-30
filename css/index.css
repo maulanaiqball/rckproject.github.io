@@ -54,7 +54,7 @@ body,
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.brand, a, #logo {
+.brand, #logo {
     background-color: transparent;
     width: 100px;
     height: 50px;
@@ -66,22 +66,28 @@ body,
 }
 
 /*section*/
-
-section {
+.full-height-section {
     height: 100vh;
 }
 
-/*section 1*/
-
+/*img*/
 .crop-container {
     overflow: hidden;
 }
 .crop-container img {
-    margin-bottom: -43px;
+    margin-bottom: -100px;
+}
+
+img{
+    background-color: transparent;
+}
+
+/*section 1*/
+.sec1 {
+    padding: 0px 120px 0px 120px;
 }
 
 /*section 2*/
-
 .sec2 {
     position: relative;
 }
@@ -112,23 +118,18 @@ section {
     margin: 100px;
 }
 
-/*section3*/
+/**/
 
-.sec3 {
-    top: 100px;
-    padding: 10px;
+.brandnews {
+    padding: 100px 12px 50px 12px;
+}
+ 
+.textnews {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-.sect3 {
-    padding: 20px 75px 0px 75px;
-}
-
-/*sec4*/
-
-.sec {
-    padding-top: 100px;
-}
-
+/**/
 
 .video-container {
     position: relative;
@@ -144,16 +145,6 @@ section {
     height: 100%;
 }
 
-/*sec4*/
-.news {
-    padding: 0px 0px 20px 0px;
-}
-
-.textnews {
-    padding-top: 20px;
-}
-
-/*section5*/
 .video-wrapper {
     align-items: center;
     justify-content: center;
@@ -166,5 +157,5 @@ section {
 }
 
 .video {
-    padding: 50px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
 }
