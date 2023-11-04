@@ -82,6 +82,11 @@ img{
     background-color: transparent;
 }
 
+.imgicon {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .imgicon img {
     height: 100px;
     width: auto;
@@ -168,6 +173,20 @@ img{
 }
 
 /**/
-.bcgrn {
-    background-color: #ffd400;
+.text {
+    position: absolute;
+    top: 3800px;
+    left: 60%;
+    transform: translate(-140%, -50%);
+    background-color: transparent;
 }
+.text, h1, h4 {
+    background-color: transparent;
+}
+
+.imgbckgrn {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
