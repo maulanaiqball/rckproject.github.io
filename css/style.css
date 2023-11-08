@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+.palete {
+    color: #202020;
+    color: #DBD9DA;
+    color: #EFD14B;
+}
+
+*,html,body {
+    background-color: #202020;
+}
+
+/*typography*/
+h1,h2,h3,h4,h5,h6 {
+    color: #DBD9DA;
+    font-family: 'Antonio', sans-serif;
+}
+h1 {
+    font-size: 5.9rem;
+}
+h2 {
+    font-size: 5rem;
+}
+p {
+    color: #DBD9DA;
+}
+a {
+    text-decoration: none;
+}
+span {
+    color: #EFD14B;
+}
+hr {
+    color: #DBD9DA;
+    padding: 1px;
+}
+button {
+    border-radius: 50px;
+    padding: 0px 20px;
+    background-color: #DBD9DA;
+}
+button:hover {
+    background-color: #202020;
+    color: #DBD9DA;
+}
+
+/*navbar*/
+.nav-link li {
+    padding: 10px;
+    list-style: none;
+}
+.nav-link li a {
+    color: #DBD9DA;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-link li a:hover {
+    color: #EFD14B;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/*section*/
+section {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 120px;
+}
+
+/*section1*/
+.robimg {
+    height: auto;
+    width: 641px;
+}
+.circle {
+    padding: 100px;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotateCircle 15s infinite linear;
+}
+.text span {
+    font-family: 'Antonio', sans-serif;
+    position: absolute;
+    top: -80px;
+    display: inline-block;
+    transform-origin: 0 80px;
+}
+@keyframes rotateCircle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateText {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/*section2*/
+.background-section {
+    background-image: url('../img/bgrob2.png');
+    height: 740px;
+    width: auto;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.textbg {
+    background-color: transparent;
+}
+  
+
+/*section3*/
+.icon img {
+    width: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+/*section4*/
+.imgcard {
+    height: 180px;
+    width: 180px;
+    padding: 0px;
+    border: #DBD9DA 2px solid;
+}
+.card-body {
+    height: 180px;
+}
+.bgcard {
+    background-color: #DBD9DA;
+}
+/*section5*/
+
+/*section6*/
+
+/*section7*/
