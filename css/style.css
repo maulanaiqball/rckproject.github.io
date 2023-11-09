@@ -11,7 +11,7 @@
 }
 
 /*typography*/
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5 {
     color: #DBD9DA;
     font-family: 'Antonio', sans-serif;
 }
@@ -20,6 +20,15 @@ h1 {
 }
 h2 {
     font-size: 5rem;
+}
+h4 {
+    font-size: 3.5rem;
+}
+h6 {
+    color: #DBD9DA;
+}
+h6:hover {
+    color: #EFD14B;
 }
 p {
     color: #DBD9DA;
@@ -168,3 +177,9 @@ section {
 /*section6*/
 
 /*section7*/
+
+/*section8*/
+iframe {
+    width: 400px;
+    height: 225px;
+}
