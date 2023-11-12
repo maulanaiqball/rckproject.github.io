@@ -54,14 +54,20 @@ button {
 .black {
     background-color: black;
 }
-.bggry {
+.grey {
     background-color: #DBD9DA;
+}
+.yellow {
+    background-color: #EFD14B;
 }
 
 /*container*/
 section {
     width: 100vw;
     padding-top: 57px;
+}
+#about {
+    height: 100vh;
 }
 .shop {
     height: 100vh;
@@ -75,8 +81,8 @@ section {
 .newssec {
     height: 130vh;
 }
-.agenda {
-    height: 90vh;
+#agenda {
+    height: 100vh;
 }
 
 
@@ -139,22 +145,6 @@ section {
     border: 1px solid #DBD9DA;
 }
 
-/*bg img*/
-.layered-container {
-    position: relative;
-    text-align: center;
-}
-.layered-container img {
-    height: auto;
-}
-.layered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 1200px;
-    transform: translate(-50%, -50%);
-}
-
 /*swiper*/
 .swiper-container {
     position: relative;
@@ -164,8 +154,8 @@ section {
 .swiper-slide {
     width: auto;
     height: 110px;
-    border: 1px solid black;
-    background-color: black;
+    border: 1px solid #DBD9DA;
+    background-color: #DBD9DA;
 }
 /* Style untuk tombol swiper */
 .swiper-button-next, .swiper-button-prev {
@@ -195,16 +185,35 @@ section {
 }
 
 /*wrapper*/
-.wrapagenda {
-    height: 200px;
-    width: auto;
-}
-.secagenda {
-    border: 1px solid #DBD9DA;
-}
 .footerlogo {
     height: 80px;
     width: auto;
+}
+
+/*untuk media screen lebar 768px*/
+@media only screen and (max-width: 768px) {
+    /*navabar*/
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+    .nav-links li {
+        padding: 10px;
+        border-bottom: 1px solid #202020;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    /*navabar end*/
 }
 
 @media screen and (max-width: 600px) {
