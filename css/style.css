@@ -217,9 +217,6 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-    #about {
-        display: none;
-    }
     /*container*/
     .shop {
         height: 180vh;
