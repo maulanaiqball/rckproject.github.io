@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+
+.palete {
+    color: #202020;
+    color: #DBD9DA;
+    color: #EFD14B;
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+
+/*tipograp*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Antonio', sans-serif;
+    color: #DBD9DA;
+}
+h1 {
+    font-size: 5.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+p {
+    color: #DBD9DA;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+span {
+    color: #EFD14B;
+}
+
+/*button*/
+button {
+    border: 1px solid #DBD9DA;
+    border-radius: 50px;
+    color: #DBD9DA;
+    padding: 5px 15px 5px 15px;
+}
+
+/*backround*/
+.transparent {
+    background-color: transparent;
+}
+.black {
+    background-color: black;
+}
+.bggry {
+    background-color: #DBD9DA;
+}
+
+/*container*/
+section {
+    width: 100vw;
+    padding-top: 57px;
+}
+.shop {
+    height: 100vh;
+}
+.wshop {
+    height: 640px;
+}
+.music {
+    padding-top: 100px;
+}
+.newssec {
+    height: 130vh;
+}
+.agenda {
+    height: 90vh;
+}
+
+
+/*navbar*/
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+}
+.menu-toggle .fa-solid .fa-bars {
+    display: block;
+    background-color: #DBD9DA;
+    height: 3px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #DBD9DA;
+}
+
+
+/*img*/
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.imgmusic:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.imgstore:hover {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+.imgstore {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+.imgnews {
+    height: 150px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+}
+.imgagenda {
+    height: 250px;
+    width: 250px;
+    border: 1px solid #DBD9DA;
+}
+
+/*bg img*/
+.layered-container {
+    position: relative;
+    text-align: center;
+}
+.layered-container img {
+    height: auto;
+}
+.layered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    transform: translate(-50%, -50%);
+}
+
+/*swiper*/
+.swiper-container {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.swiper-slide {
+    width: auto;
+    height: 110px;
+    border: 1px solid black;
+    background-color: black;
+}
+/* Style untuk tombol swiper */
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 146%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.swiper-button-prev {
+    left: 10px;
+}
+.swiper-button-next {
+    right: 10px;
+}
+/*swiper 2*/
+.swiperNews {
+    height: 150px;
+    width: auto;
+    border: 1px solid #DBD9DA;
+    background-color: #DBD9DA;
+}
+
+/*wrapper*/
+.wrapagenda {
+    height: 200px;
+    width: auto;
+}
+.secagenda {
+    border: 1px solid #DBD9DA;
+}
+.footerlogo {
+    height: 80px;
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #about {
+        display: none;
+    }
+    /*container*/
+    .shop {
+        height: 200vh;
+    }
+    .news {
+        height: 300vh;
+    }
+    .newssec {
+        height: 300vh;
+    }
+    /*typography*/
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+        text-align: end;
+    }
+    p {
+        font-size: 0.8rem;
+        text-align: end;
+    }
+    /*img*/
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .imgstore {
+        filter: none;
+        padding-top: 10px;
+    }
+
+    /*wrapper*/
+    .swiper-slide {
+        height: 60px;
+        width: 300px;
+    }
+    .wrapagenda {
+        flex-direction: column;
+    }
+    .secagenda {
+        border: none;
+    }
+
+}
