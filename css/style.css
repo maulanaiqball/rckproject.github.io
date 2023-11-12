@@ -69,7 +69,7 @@ section {
 #about {
     height: 100vh;
 }
-.shop {
+#store {
     height: 100vh;
 }
 .wshop {
@@ -218,8 +218,8 @@ section {
 
 @media screen and (max-width: 600px) {
     /*container*/
-    .shop {
-        height: 180vh;
+    #store {
+        height: 200vh;
     }
     .news {
         height: 300vh;
