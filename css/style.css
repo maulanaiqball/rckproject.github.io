@@ -240,7 +240,7 @@ section {
         padding-top: 10px;
     }
     #agenda {
-        height: 200vh;
+        height: 150vh;
     }
     iframe {
         height: fit-content;
