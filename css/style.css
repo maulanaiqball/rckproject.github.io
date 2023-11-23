@@ -27,6 +27,9 @@ body {
 .yellow {
     background-color: #FDE047;
 }
+.black {
+    background: black;
+}
 
 /*typography*/
 h1,
@@ -62,6 +65,10 @@ a {
 span {
     color: #FDE047;
     background-color: transparent;
+}
+.social i {
+    font-size: 2rem;
+    padding: 15px 20px;
 }
 
 #name1 {
@@ -137,7 +144,20 @@ section {
 #store {
     height: 100vh;
 }
-
+#sitemap {
+    height: 65vh;
+}
+#agenda {
+    height: 70vh;
+    background-image: url(../img/bgpohon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.agenda {
+    height: 200px;
+    border: 1px solid;
+    background-color: #DBD9DA;
+}
 /*containerend*/
 
 
