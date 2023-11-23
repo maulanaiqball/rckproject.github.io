@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+<<<<<<< HEAD
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
@@ -105,10 +106,177 @@
     <section class="container-fluid justify-content-center d-flex flex-column" id="music">
         <h2>RCK MUSIC</h2>
         <div class="row pt-5">
+=======
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--csslink-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>RCKproject</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="container-fluid fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="#" class="logo">
+                <img class="img-fluid" src="img/logo.png" alt="">
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#store">Store</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#social">Social</a></li>
+            </ul>
+            <script>
+                document.getElementById('mobile-menu').addEventListener('click', function () {
+                    document.getElementById('nav-links').classList.toggle('show');
+                });
+            </script>
+        </div>
+    </nav>
+    <!--navbar end-->
+
+
+    <!--section 1-->
+    <section class="container-fluid" id="about">
+        <div class="row justify-content-center ali align-items-center d-flex">
+            <div class="col-md-6 yellow">
+                <img class="img-fluid transparent pt-3" src="img/rckpose1.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <h1 class="justify-content-center ali align-items-center d-flex flex-column">
+                    ROB CLINTON <span>KARDINAL</span></h1>
+                <div class="justify-content-center ali align-items-center d-flex pt-5 pb-5">
+                    <button type="button">
+                        VIEW MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section2project-->
+    <section class="container-fluid " id="project">
+        <h2 class="justify-content-center align-items-center d-flex pb-md-3"><span>PROJECT</span></h2>
+        <p class="text-center pb-md-3">
+            Karier profesional Rob Clinton dimulai saat mendirikan PT. Jaya Data Indonesia pada 2013. Ia juga merupakan
+            pendiri klub E-sport Onic Esports Indonesia (2018), media digital Muse Media ID (2020), Shots Coffee Bar
+            (2021). Saat ini, Rob Clinton juga aktif menjabat sebagai komisaris PT. HBI, Skywell Indonesia, dan Positive
+            Vibes ID
+        </p>
+        <div class="swiper-container" id="swiper1">
+            <div class="swiper-wrapper">
+                <!--1-->
+                <a class="swiper-slide row d-flex justify-content-center align-items-center transparent" 
+                href="https://www.instagram.com/onic.esports/">
+                    <div class="col-4 transparent">
+                        <img class="icon" src="img/1.png" alt="">
+                    </div>
+                    <div class="col-8 transparent">
+                        <h3 class="m-0 text-dark transparent">onic.esports</h3>
+                        <p class="m-0 text-dark transparent">2018</p>
+                    </div>
+                </a>
+                <!--2-->
+                <a class="swiper-slide row d-flex justify-content-center align-items-center transparent" 
+                href="https://www.instagram.com/musemediaid/">
+                    <div class="col-4 transparent">
+                        <img class="icon" src="img/2.png" alt="">
+                    </div>
+                    <div class="col-8 transparent">
+                        <h3 class="m-0 text-dark transparent">MUSE MEDIA</h3>
+                        <p class="m-0 text-dark transparent">2018</p>
+                    </div>
+                </a>
+                <!--3-->
+                <a class="swiper-slide row d-flex justify-content-center align-items-center transparent" 
+                href="https://www.instagram.com/positivevibes.id/">
+                    <div class="col-4 transparent">
+                        <img class="icon" src="img/3.png" alt="">
+                    </div>
+                    <div class="col-8 transparent">
+                        <h3 class="m-0 text-dark transparent">positivevibes.id</h3>
+                        <p class="m-0 text-dark transparent">2018</p>
+                    </div>
+                </a>
+                <!--4-->
+                <a class="swiper-slide row d-flex justify-content-center align-items-center transparent" 
+                href="https://www.instagram.com/avgi.id/">
+                    <div class="col-4 transparent">
+                        <img class="icon" src="img/4.png" alt="">
+                    </div>
+                    <div class="col-8 transparent">
+                        <h3 class="m-0 text-dark transparent">AVGI.id</h3>
+                        <p class="m-0 text-dark transparent">2018</p>
+                    </div>
+                </a>
+                <!--5-->
+                <a class="swiper-slide row d-flex justify-content-center align-items-center transparent" 
+                href="https://www.instagram.com/official.icca/">
+                    <div class="col-4 transparent">
+                        <img class="icon" src="img/5.png" alt="">
+                    </div>
+                    <div class="col-8 transparent">
+                        <h3 class="m-0 text-dark transparent">official.icca</h3>
+                        <p class="m-0 text-dark transparent">2018</p>
+                    </div>
+                </a>
+                <!--6-->
+                <a class="swiper-slide row d-flex justify-content-center align-items-center transparent" 
+                href="https://www.instagram.com/shotscoffeebar/">
+                    <div class="col-4 transparent">
+                        <img class="icon" src="img/6.png" alt="">
+                    </div>
+                    <div class="col-8 transparent">
+                        <h3 class="m-0 text-dark transparent">shotscoffeebar</h3>
+                        <p class="m-0 text-dark transparent">2018</p>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        <!--script-->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Inisialisasi Swiper untuk Section 1
+                var swiper2 = new Swiper('#swiper1', {
+                    slidesPerView: 'auto',
+                    spaceBetween: 20,
+                    loop: true,
+                    direction: 'horizontal', // Atur arah ke horizontal
+                    autoplay: {
+                        delay: 1000, //(dalam milidetik)
+                    },
+                    speed: 1000,
+                    effect: 'slide', // Menambahkan efek slide
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            });
+        </script>
+
+
+        <!--music-->
+        <h2 class="music justify-content-center align-items-center d-flex pb-xl-5 pb-sm-3">
+            <span>OUR MUSIC</span></h2>
+        <div class="row pt-3">
+            <!--col1-->
+>>>>>>> a1c24c6142d2beab7405016cb438a6df9f45b65c
             <div class="col-md-6">
                 <div class="row">
                     <!--1-->
                     <div class="col-6">
+<<<<<<< HEAD
                         <img class="img-fluid" src="img/music1.png" alt="">
                         <div class="justify-content-between align-items-center d-flex">
                             <p>Listen ></p>
@@ -230,3 +398,259 @@
         })
     </script>
 </body>
+=======
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/music1.png" alt="">
+                            <div class="mtext justify-content-between d-flex pt-1">
+                                <p>Listen ></p>
+                                <p>2023</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--1-->
+                    <div class="col-6">
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/music2.png" alt="">
+                            <div class="mtext justify-content-between d-flex pt-1">
+                                <p>Listen ></p>
+                                <p>2023</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--col2-->
+            <div class="col-md-6">
+                <div class="row">
+                    <!--1-->
+                    <div class="col-6">
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/music3.png" alt="">
+                            <div class="mtext justify-content-between d-flex pt-1">
+                                <p>Listen ></p>
+                                <p>2023</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--1-->
+                    <div class="col-6">
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/music4.png" alt="">
+                            <div class="mtext justify-content-between d-flex pt-1">
+                                <p>Listen ></p>
+                                <p>2023</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="justify-content-center ali align-items-center d-flex pt-5 pb-5">
+            <button type="button">
+                VIEW MORE
+            </button>
+        </div>
+    </section>
+
+    <!--section3store-->
+    <section class="container-fluid" id="store">
+        <h2 class="justify-content-center align-items-center d-flex pt-3 pb-3 pb-md-1"><span>STORE</span></h2>
+        <div class="row">
+            <div class="col-md-4 justify-content-center align-items-center d-flex">
+                <a href="#">
+                    <img class="imgstore img-fluid" src="img/product (1).png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 justify-content-center align-items-center d-flex">
+                <a href="#">
+                    <img class="imgstore img-fluid" src="img/product (2).png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 justify-content-center align-items-center d-flex">
+                <a href="#">
+                    <img class="imgstore img-fluid" src="img/product (3).png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="justify-content-center ali align-items-center d-flex pt-5 pb-5">
+            <button type="button">
+                VIEW MORE
+            </button>
+        </div>
+    </section>
+
+    <!--section4news-->
+    <section class="container-fluid" id="news">
+        <h2 class="pt-4 pb-3 justify-content-center align-items-center d-flex"><span>NEWS</span></h2>
+        <div class="swiper-container" id="swiper2">
+            <div class="swiper-wrapper">
+                <!--1-->
+                <a class="swiper-slide slide row d-flex justify-content-center align-items-center transparent" href="#">
+                    <div class="col-5 transparent">
+                        <img class="imgnews" src="img/news (1).png" alt="">
+                    </div>
+                    <div class="col-7 transparent">
+                        <h6 class="m-0 text-dark transparent">
+                            Onic Esport dan Geek Fam Maju ke MLBB M5 World Championship
+                        </h6>
+                    </div>
+                </a>
+                <!--2-->
+                <a class="swiper-slide slide row d-flex justify-content-center align-items-center transparent" href="#">
+                    <div class="col-5 transparent">
+                        <img class="imgnews" src="img/news (2).png" alt="">
+                    </div>
+                    <div class="col-7 transparent">
+                        <h6 class="m-0 text-dark transparent">
+                            Profil Rob Clinton Kardinal, Politikus Muda dan Pengusaha Calon Suami Chelsea Islan
+                        </h6>
+                    </div>
+                </a>
+                <!--3-->
+                <a class="swiper-slide slide row d-flex justify-content-center align-items-center transparent" href="#">
+                    <div class="col-5 transparent">
+                        <img class="imgnews" src="img/news (3).png" alt="">
+                    </div>
+                    <div class="col-7 transparent">
+                        <h6 class="m-0 text-dark transparent">
+                            5 Potret Pernikahan Chelsea Islan dan Rob Clinton Kardinal di Gereja Katedral
+                        </h6>
+                    </div>
+                </a>
+                <!--4-->
+                <a class="swiper-slide slide row d-flex justify-content-center align-items-center transparent" href="#">
+                    <div class="col-5 transparent">
+                        <img class="imgnews" src="img/news (4).png" alt="">
+                    </div>
+                    <div class="col-7 transparent">
+                        <h6 class="m-0 text-dark transparent">
+                            5 Potret Pernikahan Chelsea Islan dan Rob Clinton Kardinal di Gereja Katedral
+                        </h6>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        <!--script-->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Inisialisasi Swiper untuk Section 1
+                var swiper2 = new Swiper('#swiper2', {
+                    slidesPerView: 'auto',
+                    spaceBetween: 20,
+                    loop: true,
+                    direction: 'horizontal', // Atur arah ke horizontal
+                    autoplay: {
+                        delay: 1000, //(dalam milidetik)
+                    },
+                    speed: 1000,
+                    effect: 'slide', // Menambahkan efek slide
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            });
+        </script>
+
+        <!--video-->
+        <h3 class=" pb-4 transparent video d-flex justify-content-start align-items-center">
+            <span>FEATURED VIDEO</span></h3>
+        <div class="row">
+            <!-- Kolom 1 -->
+            <div class="col-md-6">
+                <iframe width="100%" height="373px" src="https://www.youtube.com/embed/" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+            <!-- Kolom 2 -->
+            <div class="col-md-6">
+                <iframe width="100%" height="373px" src="https://www.youtube.com/embed/" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!--section5agenda-->
+    <section class="container-fluid" id="agenda">
+        <h2>PROJECT | <span>AGENDA</span></h2>
+        <div class="row">
+            <!--col1-->
+            <div class="col-md-6">
+                <div class="row">
+                    <!--1-->
+                    <div class="col-6">
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/agenda1.png" alt="">
+                            <div class="mtext justify-content-center align-items-center d-flex flex-column pt-1">
+                                <h5>Run with your heart</h5>
+                                <p class="text-center">Lari bersama untuk PIK sehat, Program Donasi dan Pendidikan </p>
+                                <p>10 November 2023</p>
+                                <div class="justify-content-center align-items-center d-flex pt-5 pb-5">
+                                    <button type="button">
+                                        VIEW MORE
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--2-->
+                    <div class="col-6">
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/agenda2.png" alt="">
+                            <div class="mtext justify-content-center align-items-center d-flex flex-column pt-1">
+                                <h5>Tanam 1000 Pohon</h5>
+                                <p class="text-center">Tanam 1000 pohon untuk Indonesia bebas polusi</p>
+                                <p>12 Desember 2023</p>
+                                <div class="justify-content-center align-items-center d-flex pt-5 pb-5">
+                                    <button type="button">
+                                        VIEW MORE
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--col2-->
+            <div class="col-md-6">
+                <div class="row">
+                    <!--1-->
+                    <div class="col-6">
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/coming soon.png" alt="">
+                            <div class="mtext justify-content-center align-items-center d-flex flex-column pt-1">
+                                <h5>COMING SOON</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <!--2-->
+                    <div class="col-6">
+                        <a href="">
+                            <img class="imgmusic img-fluid" src="img/coming soon.png" alt="">
+                            <div class="mtext justify-content-center align-items-center d-flex flex-column pt-1">
+                                <h5>COMING SOON</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="container-fluid ps-5">
+        <div class="logo d-flex justify-content-center align-items-center">
+            <img class="pe-4 footerlogo" src="img/rcklogo.png" alt="">
+            <img class="footerlogo" src="img/logoo (1).png" alt="">
+        </div>
+        <p class=" justify-content-center align-items-center d-flex">
+            &copy; 2023 RCK.
+        </p>
+    </footer>
+</body>
+
+</html>
+>>>>>>> a1c24c6142d2beab7405016cb438a6df9f45b65c
