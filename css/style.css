@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.palete {
+    color: #202020;
+    color: #DBD9DA;
+    color: #FDE047;
+    font-family: 'Anton', sans-serif;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    scroll-behavior: smooth;
+}
+
+/*color*/
+.transparent {
+    background-color: transparent;
+}
+
+.grey {
+    background-color: #202020;
+}
+
+.yellow {
+    background-color: #FDE047;
+}
+
+/*typography*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 5rem;
+}
+h4 {
+    font-size: 2.5rem;
+}
+
+
+p {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+span {
+    color: #FDE047;
+    background-color: transparent;
+}
+
+#name1 {
+    font-size: 9rem;
+    position: absolute;
+    z-index: 0;
+    padding-bottom: 80px;
+}
+
+#name2 {
+    font-size: 9rem;
+    padding-bottom: 80px;
+    z-index: 1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.sitemap:hover {
+    color: #FDE047;
+}
+
+/*button*/
+.btn {
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px;
+}
+
+/*end*/
+
+
+/*container*/
+section {
+    overflow: hidden;    
+    width: 100vw;
+}
+
+#home {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#home::before {
+    background: linear-gradient(to top,#202020,transparent);
+}
+#about {
+    height: 100vh;
+}
+.about {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#karya {
+    height: 100vh;
+    background-image: url(../img/bgpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.karya {
+    height: 100vh;
+}
+
+#music {
+    height: 100vh;
+}
+#store {
+    height: 100vh;
+}
+
+/*containerend*/
+
+
+/*img*/
+#home img {
+    position: absolute;
+    object-fit: cover;
+   /* pointer-events: none;*/
+}
+#imgrob1 {
+    top: 0;
+    width: 55%;
+    height: auto;
+}
+.about img {
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    transition: transform 1s;
+}
+.about:hover .imgbg {
+    transform: translateY(-5%);
+    transition: 1s;
+}
+.about:hover .imgrob2 {
+    transform: translateX(5%);
+}
+.about .imgrob2:hover {
+    transform: translateX(0);
+}
+.imgbg {
+    height: 80%;
+    width: auto;
+}
+
+
+/*imgend*/
+
+/*keyframe*/
+@media screen and (max-width: 600px) {
+    /*typography*/
+    #name1 {
+        font-size: 2.7rem;
+    }
+    #name2 {
+        font-size: 2.7rem;
+    }
+    /*container*/
+    
+    #about {
+        height: 250vh;
+    }
+    /*img*/
+    #imgrob1 {
+        
+        width: 100%;
+        height: auto;
+    }
+    .imgbg {
+        height: 50%;
+        width: auto;
+    }
+}
