@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--css_botstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -103,50 +103,82 @@
 
     <!--project-->
     <section class="container-fluid justify-content-center d-flex flex-column" id="music">
-        <h2>RCK MUSIC</h2>
-        <div class="row pt-5">
-            <div class="col-md-6">
-                <div class="row">
-                    <!--1-->
-                    <div class="col-6">
-                        <img class="img-fluid" src="img/music1.png" alt="">
-                        <div class="justify-content-between align-items-center d-flex">
-                            <p>Listen ></p>
-                            <p>2023</p>
+        <h2 class="transparent">RCK PLAYLIST</h2>
+        <div class="row pt-5 transparent">
+            <!--1-->
+            <div class="col-md-6 pt-5 transparent">
+                <div class="musiccard d-flex flex-column">
+                    <div class="row p-0 m-0 transparent">
+                        <div class="col-4 transparent ">
+                            <div class="wrapperimgmusic transparent">
+                                <img class="imgmusic transparent" src="img/musicplaylist.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 pt-3 transparent">
+                            <h6>Rob Clinton Kardinal</h6>
+                            <p>Spotify</p>
                         </div>
                     </div>
-                    <!--2-->
-                    <div class="col-6">
-                        <img class="img-fluid" src="img/music2.png" alt="">
-                        <div class="justify-content-between align-items-center d-flex">
-                            <p>Listen ></p>
-                            <p>2023</p>
+                    <div class="wrappertextmusic transparent">
+                        <div class="row p-0 m-0 transparent pt-4">
+                            <div class="col-6 transparent">
+                                <div class="logospotfy d-flex align-items-center">
+                                    <i class="fa-brands fa-spotify" style="color: #ffffff;"></i>
+                                    <p class="mb-0"> Spotify</p>
+                                </div>
+                            </div>
+                            <div class="col-6 transparent justify-content-end align-items-end d-flex">
+                                <div class=" align-items-center d-flex">
+                                    <div class="btn justify-content-center align-items-center d-flex">
+                                        <a class="text-white" href="#">
+                                            Play
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <!--3-->
-                    <div class="col-6">
-                        <img class="img-fluid" src="img/music3.png" alt="">
-                        <div class="justify-content-between align-items-center d-flex">
-                            <p>Listen ></p>
-                            <p>2023</p>
+            </div> 
+            <!--2-->
+            <div class="col-md-6 pt-5 transparent">
+                <div class="musiccard d-flex flex-column">
+                    <div class="row p-0 m-0 transparent">
+                        <div class="col-4 transparent ">
+                            <div class="wrapperimgmusic transparent">
+                                <img class="imgmusic transparent" src="img/musicplaylist.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 pt-3 transparent">
+                            <h6>Rob Clinton Kardinal</h6>
+                            <p>Spotify</p>
                         </div>
                     </div>
-                    <!--4-->
-                    <div class="col-6">
-                        <img class="img-fluid" src="img/music4.png" alt="">
-                        <div class="justify-content-between align-items-center d-flex">
-                            <p>Listen ></p>
-                            <p>2023</p>
+                    <div class="wrappertextmusic transparent">
+                        <div class="row p-0 m-0 transparent pt-4">
+                            <div class="col-6 transparent">
+                                <div class="logospotfy d-flex align-items-center">
+                                    <i class="fa-brands fa-spotify" style="color: #ffffff;"></i>
+                                    <p class="mb-0"> Spotify</p>
+                                </div>
+                            </div>
+                            <div class="col-6 transparent justify-content-end align-items-end d-flex">
+                                <div class=" align-items-center d-flex">
+                                    <div class="btn justify-content-center align-items-center d-flex">
+                                        <a class="text-white" href="#">
+                                            Play
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="justify-content-center align-items-center d-flex pt-5">
+
+
+        <div class="justify-content-center align-items-center d-flex pt-5 transparent">
             <div class="btn justify-content-center align-items-center d-flex">
                 <a class="text-white" href="#">
                     VIEW MORE
@@ -161,6 +193,87 @@
 
     </section>
     <!--end-->
+
+    <!--sectionvideo-->
+    <section class="container-fluid justify-content-center d-flex flex-column" id="video">
+        <h2>FEATURED VIDEO</h2>
+        <div class="row h-100">
+            <div class="col-md-6">
+                
+                <div class="embed-responsive embed-responsive-16by9 video-container">
+                    <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/your-video-id"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                
+                <div class="embed-responsive embed-responsive-16by9 video-container">
+                    <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/your-video-id"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+
+    <!--sectionnews-->
+    <section class="container-fluid justify-content-center d-flex flex-column" id="news">
+        <h2>NEWS</h2>
+        <div class="row">
+            <div class="col-6">
+                <a href="#">
+                    <div class="news d-flex">
+                        <img src="img/news (1).png" alt="">
+                        <p class="ps-3">
+                            Profil Rob clinton Kardinal Pendiri Onic Esports
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="#">
+                    <div class="news d-flex">
+                        <img src="img/news (2).png" alt="">
+                        <p class="ps-3">
+                            Profil Rob clinton Kardinal Pendiri Onic Esports
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <a href="#">
+                    <div class="news d-flex">
+                        <img src="img/news (3).png" alt="">
+                        <p class="ps-3">
+                            Profil Rob clinton Kardinal Pendiri Onic Esports
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="#">
+                    <div class="news d-flex">
+                        <img src="img/news (4).png" alt="">
+                        <p class="ps-3">
+                            Profil Rob clinton Kardinal Pendiri Onic Esports
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="justify-content-center align-items-center d-flex pt-5">
+            <div class="btn justify-content-center align-items-center d-flex">
+                <a class="text-white" href="#">
+                    VIEW MORE
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+
+
 
     <!--sectionprojectagenda-->
     <section class="container-fluid justify-content-center d-flex flex-column" id="agenda">
@@ -270,10 +383,10 @@
 
     <!--footer-->
     <footer class="container-fluid align-items-center justify-content-between d-flex pt-1 pb-1">
-        <a href="#">
+        <a class="text-light" href="#">
             &copy;Copyright 2023. Rob Clinton Kardinal.All rights reserved
         </a>
-        <a href="#">
+        <a class="text-light" href="#">
             create by : Iqbal9q21L
         </a>
     </footer>
@@ -281,7 +394,9 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         let name1 = document.getElementById('name1');
         let imgrob1 = document.getElementById('imgrob1');
